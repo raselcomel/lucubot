@@ -43,7 +43,7 @@ global.APIKeys = { // APIKey nya disini
 global.packname = '©'
 global.author = 'Zee'
 
-global.wait = '*Tunggu sebentar ya sayang*'
+global.wait = '*Tunggu sebentar ya...*'
 global.eror = 'Maaf terjadi kesalahan'
 global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
 global.watermark = '© Zee' //change the watermark (beberapa harus manual)
@@ -52,10 +52,9 @@ global.anu = `Thanks to:
 •Allah swt
 •Nurutomo
 •Ariffb
-•IrwanX
-•Rasel (owner) 
-•Nadin
-•Aca Mirabel
+•Ray (partner
+•Rasel (mybro) 
+•Gw (owner
 •Penyedia Layanan API
 •Orang-orang yang Berdonasi
 •My ortu
@@ -64,17 +63,15 @@ Jika menemukan bug atau request fitur dan join bot harap chat owner dengan cara:
 *-report* [pesan].
 
 (Bot join group NOT FREE!)
-Price:
-10K untuk 1 bulan
-Untuk 1 group
+Price? type #sewa
 
 Nb:bot ini masih terus dikembangkan.`
 global.ppkosong = 'https://telegra.ph/file/22fd84e4a3244e1b17e4e.png'
 global.image = 'https://i.postimg.cc/52kVpWSw/20211113-192215.png'//change the image
 global.thumbfoto = 'https://i.postimg.cc/52kVpWSw/20211113-192215.png' //thumbnail foto tools
 global.yamete = 'https://i.postimg.cc/52kVpWSw/20211113-192215.png' //foto first chat
-global.sumberurl = 'https://instagram.com/rasel.ganz'
-global.deskripsiurl = 'Saya adalah Bot WhatsApp ×͜×.'
+global.sumberurl = 'https://instagram.com/yrdan_21'
+global.deskripsiurl = 'Saya adalah Bot WhatsApp.'
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
