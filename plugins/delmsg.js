@@ -1,6 +1,6 @@
-let handler = async (m, { isOwner, isPremium, command, usedPrefix, text }) => {
-    if (!(isPremium || isOwner)) {
-                global.dfail('premium', m, conn)
+let handler = async (m, { isOwner, command, usedPrefix, text }) => {
+    if (!( isOwner )) {
+                global.dfail('owner', m, conn)
                 throw false
                 }
     let which = command.replace(/del/i, '')
