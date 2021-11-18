@@ -1,5 +1,5 @@
 {
-  "name": "lucubot",
+  "name": "zeebot",
   "version": "2.0.0",
   "description": "WhatsApp Bot Ringan Yang Berat Dosamu<3",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raselcomel/lucu.git"
+    "url": "git+https://github.com/dzee22/LXZ.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/ariffb25/stikerinbot/issues"
   },
-  "homepage": "xnxx.com <3",
+  "homepage": "https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.54.0",
