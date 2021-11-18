@@ -328,13 +328,13 @@ module.exports = {
                 console.error(e)
               }
             }
-            // if (m.limit) m.reply(+ m.limit + ' Limit terpakai') // Jadikan sebagai komentar jika kamu risih dengan pesan ini
+             if (m.limit) m.reply(+ m.limit + ' Limit terpakai') // Jadikan sebagai komentar jika kamu risih dengan pesan ini
           }
           break
         }
       }
     } finally {
-      await this.updatePresence(m.chat, Presence.recording)
+      //await this.updatePresence(m.chat, Presence.recording)
       //console.log(global.db.data.users[m.sender])
       let user, stats = global.db.data.stats
       if (m) {
@@ -484,10 +484,10 @@ ketik *.on delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Pemilik Bot*_',
-    mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_',
-    premium: 'Perintah ini hanya untuk pengguna _*Premium*_',
+    rowner: 'Perintah ini hanya dapat digunakan oleh *Owner*',
+    owner: 'Perintah ini hanya dapat digunakan oleh *Owner*',
+    mods: 'Perintah ini hanya dapat digunakan oleh *Moderator*',
+    premium: 'Perintah ini hanya untuk pengguna *Premium*',
     group: 'Perintah ini hanya dapat digunakan di grup',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi',
     admin: 'Perintah ini hanya untuk *Admin* grup',
