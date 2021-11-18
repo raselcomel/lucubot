@@ -12,10 +12,11 @@ let handler = async(m, { conn }) => {
 ┃ *─★‧ﾟ
 ╰━━━━━━━━⸙
 Pembayaran:
-Dana: 085346545126
-OVO: 085346545126
-GOPAY: 085346545126
-PULSA: 085346545126 (+5.000)
+Dana
+OVO 
+GOPAY
+PULSA (+5.000)
+Nomor?: chat owner
     
 「Syarat dan Ketentuan」
 1. Bot akan keluar jika sudah waktu nya keluar
