@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = ['6285346545126', '6282256048971'] // Letakan nomor kamu disini
+global.owner = ['6282146176911', '6289621278920'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -40,14 +40,15 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = '𝑳𝒖𝒄𝒖 乂⁩ 𝑩𝒐𝒕'
-global.author = '@rasel.ganz\n         ×͜×'
+global.packname = '©'
+global.author = 'Zee'
 
 global.wait = '*Tunggu sebentar ya sayang*'
 global.eror = 'Maaf terjadi kesalahan'
 global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
-global.watermark = '© rasel ×͜×' //change the watermark (beberapa harus manual)
-global.thanks = `Thanks to:
+global.watermark = '© Zee' //change the watermark (beberapa harus manual)
+global.thanks = '© Zee'
+global.anu = `Thanks to:
 •Allah swt
 •Nurutomo
 •Ariffb
@@ -69,9 +70,9 @@ Untuk 1 group
 
 Nb:bot ini masih terus dikembangkan.`
 global.ppkosong = 'https://telegra.ph/file/22fd84e4a3244e1b17e4e.png'
-global.image = 'https://telegra.ph/file/c9a5e49b5336604baa137.jpg'//change the image
-global.thumbfoto = 'https://telegra.ph/file/c9a5e49b5336604baa137.jpg' //thumbnail foto tools
-global.yamete = 'https://telegra.ph/file/c9a5e49b5336604baa137.jpg' //foto first chat
+global.image = 'https://i.postimg.cc/52kVpWSw/20211113-192215.png'//change the image
+global.thumbfoto = 'https://i.postimg.cc/52kVpWSw/20211113-192215.png' //thumbnail foto tools
+global.yamete = 'https://i.postimg.cc/52kVpWSw/20211113-192215.png' //foto first chat
 global.sumberurl = 'https://instagram.com/rasel.ganz'
 global.deskripsiurl = 'Saya adalah Bot WhatsApp ×͜×.'
 
