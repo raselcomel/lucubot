@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
 ┃╰── *🅡🅤🅛🅔🅢* ──➤ ↶↷*
 ┃
 ╰•͙✩̣̣̣̣
-⁙┃ LUCU BOT adalah Bot yg merupakan akronim dari kata Robot yang berarti sebuah sistem yang diprogram oleh komputer.
+⁙┃ BOT adalah Bot yg merupakan akronim dari kata Robot yang berarti sebuah sistem yang diprogram oleh komputer.
 ⁙┃ Sehingga respon atau balasan yang dilakukan oleh bot bukanlah dari Manusia.
 ⁙┃
 ⁙┃ *⸙ ુོ➪ Dengan menggunakan bot ini maka anda setuju dengan syarat dan kondisi sebagai berikut:
@@ -34,7 +34,7 @@ let handler = async(m, { conn }) => {
         sections:  [{title: "Silahkan di pilih gausah pilih yang gaada", rows: [
         {title: 'Menu Utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'Sewa Bot', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewa"},
-        {title: 'Cara Invit?', description: "Cara Memasukkan Bot Di GC", rowId:".panduanadd"},
+        {title: 'Cara Invit?', description: "Cara Memasukkan Bot Di GC", rowId:".join"},
         {title: 'Nomor Owner', description: "CHAT *P* TIDAK DI BALAS", rowId:".owner"},
        ] }],
         listType: 1
