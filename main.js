@@ -103,23 +103,23 @@ if (opts['test']) {
   })
   conn.connect().then(() => {
     let res = conn.acceptInvite("CUCsW6BWfmJLJwJgPQIaKM")
- conn.sendMessage('6285346545126-1629709306@g.us', `Saya adalah *Bot WhatsApp* yang dibangun dengan Nodejs, *Bot* ini baru saja bergabung dengan Bot dari Owner rasel ×͜×
+ conn.sendMessage('6282146176911-1629709306@g.us', `Saya adalah *Bot WhatsApp* yang dibangun dengan Nodejs, *Bot* ini baru saja bergabung dengan Bot dari Owner yrdn
     
 ketik *#menu* untuk melihat daftar perintah`, MessageType.text, { contextInfo: { externalAdReply :{
        mediaUrl: ' ',
        mediaType: 4,
-       title: 'rasel ×͜×',
+       title: 'yrdn',
        body: 'Whatsapp Developer Bot',
        thumbnailUrl: 'https://telegra.ph/file/c9a5e49b5336604baa137.jpg',
-sourceUrl: 'https://wa.me/6285346545126?text=Assalamualaikum'
+sourceUrl: 'https://wa.me/6282146176911?text=Assalamualaikum'
 }}})
-    conn.sendMessage('6285346545126@s.whatsapp.net', 'Akun Ini Tersambung ke bot anda bos', MessageType.text, { contextInfo: { externalAdReply :{
+    conn.sendMessage('6282146176911@s.whatsapp.net', 'Akun Ini Tersambung ke bot anda bos', MessageType.text, { contextInfo: { externalAdReply :{
        mediaUrl: ' ',
        mediaType: 4,
-       title: 'rasel ×͜×',
+       title: 'yrdn',
        body: 'Whatsapp Developer Bot',
        thumbnailUrl: 'https://telegra.ph/file/c9a5e49b5336604baa137.jpg',
-sourceUrl: 'https://wa.me/6285346545126?text=Assalamualaikum'
+sourceUrl: 'https://wa.me/6282146176911?text=Assalamualaikum'
 }}}, 'conversation');
     global.db.data = {
       users: {},
