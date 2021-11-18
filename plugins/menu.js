@@ -8,7 +8,7 @@ const defaultMenu = {
   before: `
 ╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮
 ┃╭┈─────────────⩵꙰ཱི࿐
-┃╰── %me ──➤ ↶↷*
+┃╰────➤ ↶↷*
 ╰•͙✩̣̣̣̣ Hai, %name!
 ⁙┃〲 Tersisa *%limit Limit*
 ⁙┃〲 Role *%role*
@@ -21,8 +21,6 @@ const defaultMenu = {
 ⁙┃〲
 ⁙┃〲 Uptime: *%uptime (%muptime)*
 ⁙┃〲 Database: %rtotalreg dari %totalreg
-⁙┃〲 Github Owner:
-⁙┃〲 github.com/irwanx
 ⁙╰•°°°🕊°°°°°🕊°°°°°°🕊°°°°°°°°
 %readmore`.trimStart(),
   header: '╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮\n┃╭┈─────────────⩵꙰ཱི࿐\n┃╰── %category ──➤ ↶↷\n╰•͙✩̣̣̣̣ ',
@@ -36,7 +34,7 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'vote', 'quran', 'audio', 'jadibot', 'info', 'update', 'tanpakategori', 'owner']
+  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'vote', 'quran', 'audio', 'jadibot', 'info', 'update', 'shop', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
@@ -62,7 +60,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'jadibot': 'Jadi Bot',
     'info': 'Info',
     'update': 'Update',
-    '': 'Tanpa Kategori',
+    'shop': 'Shop',
   }
   if (teks == 'game') tags = {
     'game': 'Game'
@@ -128,8 +126,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'update') tags = {
     'update': 'Update'
   }
-  if (teks == 'tanpakategori') tags = {
-    '': 'Tanpa Kategori'
+  if (teks == 'shop') tags = {
+    'shop': 'Shop
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
@@ -194,7 +192,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "Terimakasih Atas Kunjungan Anda\n\nJangan lupa jaga kesehatan ya...\n\nTetap patuhi prokes dan ikuti vaksinasi\nMari mendukung program pemerintah dalam menanggulangi COVID-19 di Indonesia🇲🇨\n\nAda keperluan dengan owner bot?\nketik *#report* [pesan kamu]",
+          "description": "Silahkan Pilih Menu di Bawah Ya!!\n\nJika ada bug harap lapor ke owner\nKetik #report [bug yang kamu temukan]",
           "buttonText": "Pilih Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
@@ -289,13 +287,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": ".? update"
                 }, {
-                  "title": "Tanpa Kategori",
+                  "title": "Shop",
                   "description": "",
-                  "rowId": ".? tanpakategori"
-                }, {
-                  "title": "Grup Official Bot",
-                  "description": "",
-                  "rowId": ".gcbot"
+                  "rowId": ".? shop"
                 }, {
                   "title": "Owner",
                   "description": "",
