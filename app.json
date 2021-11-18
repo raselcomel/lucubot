@@ -1,7 +1,7 @@
 {
-  "name": "lucu",
+  "name": "zeebot",
   "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/raselcomel/lucu",
+  "repository": "https://github.com/dzee22/LXZ",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": [
     "bot",
